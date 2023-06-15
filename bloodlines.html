@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <header>
+        <h1>Smith Family Ranch</h1>
+    </header>
+         <nav>
+            <a href="ranchhome.html" class="home">Home</a>
+            <a href="bloodlines.html" class="lineage">Lineage</a>
+            <a href="tips.html" class="tips">Helpful websites about goats</a>
+            <a href="our-goats.html" class="mygoats">Our goats</a>
+         </nav>
+         <h2>Goat lineage</h2>
+    <form>
+        <fieldset>
+            <legend>Add Goat</legend>
+            <div>
+                <label for="tagid">Flock ID</label>
+                <input type="text" id="tagid" name="tagid">
+            </div>
+            <div>
+                <label for="breeder">Breeder's Prefix</label>
+                <input type="text" id="breeder" name="breeder">
+            </div>
+            <div>
+                <label for="dob">DOB</label>
+                <input type="date" id="dob" name="dob"> 
+            </div>
+            <div>
+                <label for="sex">Sex:</label>
+                <label for="buck">Buck</label>
+                <input type="checkbox" id="buck" name="buck">  
+                <label for="doe">Doe</label>
+                <input type="checkbox" id="doe" name="doe">
+            </div>
+            <div>
+                <label for="bbreed">Buck's breed</label>
+                <select type="breed" name="breed">
+                 <option value="apline">Alpine</option>  
+                 <option value="altai mountain">Altai Mountain</option>  
+                 <option value="anglo-nubian">Anglo-Nubian</option>
+                 <option value="angora">Angora</option>  
+                 <option value="appenzell">Appenzell</option>  
+                 <option value="arapawa island">Arapawa Island</option>  
+                 <option value="australian">Australian</option>  
+                 <option value="bagot">Bagot</option>  
+                 <option value="barbari">Barbari</option>  
+                 <option value="beetal">Beetal</option>  
+                 <option value="belgian fawn">Belgian Fawn</option>  
+                 <option value="benadir">Benadir</option>  
+                 <option value="bhuj">Bhuj</option>  
+                 <option value="boer">Boer</option>  
+                 <option value="booted">Booted</option>  
+                 <option value="british alpine">British Alpine</option>  
+                 <option value="brown shorthair">Brown Shorthair</option>  
+                 <option value="canary island">Canary Island</option>  
+                 <option value="caninde">Canindé</option>  
+                 <option value="cashmere">Cashmere</option>  
+                 <option value="chapar">Chapar</option>  
+                 <option value="corsican">Corsican</option>  
+                 <option value="daera din panah">Daera Din Panah</option>  
+                 <option value="damani">Damani</option>  
+                 <option value="danish landrace">Danish Landrace</option>  
+                 <option value="don">Don</option>  
+                 <option value="dutch landrace">Dutch Landrace</option>  
+                 <option value="erzgebirge">Erzgebirge</option>  
+                 <option value="finnish landrace">Finnish Landrace</option>  
+                 <option value="golden guernsey">Golden Guernsey</option>  
+                 <option value="grisons striped">Grisons Striped</option>  
+                 <option value="hailun">Hailun</option>  
+                 <option value="haimen">Haimen</option>  
+                 <option value="hasi">Hasi</option>  
+                 <option value="hejazi">Hejazi</option>  
+                 <option value="hexi cashmere">Hexi Cashmere</option>  
+                 <option value="hongtong">Hongtong</option>  
+                 <option value="huaipi">Huaipi</option>  
+                 <option value="huaitoutala">Huaitoutala</option>  
+                 <option value="hungimpr">Hungarian Improved</option>  
+                 <option value="irish">Irish</option>  
+                 <option value="jingrey">Jining Grey</option>  
+                 <option value="kaghani">Kaghani</option>  
+                 <option value="kalared">Kalahari Red</option>  
+                 <option value="kam">Kamori</option>  
+                 <option value="kiko">Kiko</option>  
+                 <option value="kinder">Kinder</option>  
+                 <option value="lamancha">LaMancha</option>  
+                 <option value="laoshan">Laoshan</option>  
+                 <option value="moxoto">Moxoto</option>  
+                 <option value="murciagran">Murcia-Granada</option>  
+                 <option value="myotonic">Myotonic (Wooden Leg)</option>  
+                 <option value="nachi">Nachi</option>  
+                 <option value="nigeriand">Nigerian Dwarf</option>  
+                 <option value="norwegian">Norwegian</option> 
+                 <option value="oberhasli">Oberhasli</option>  
+                 <option value="peacock">Peacock</option>  
+                 <option value="philip">Philippine</option>  
+                 <option value="poitou">Poitou</option> 
+                 <option value="pygmy">Pygmy</option>  
+                 <option value="pyrenean">Pyrenean</option>  
+                 <option value="qinshan">Qinshan</option>  
+                 <option value="repartida">Repartida</option>  
+                 <option value="russwng">Russian White and Gorki</option>  
+                 <option value="saanen">Saanen</option>  
+                 <option value="sahelian">Sahelian</option>  
+                 <option value="savanna">Savanna</option>  
+                 <option value="sanclemen">San Clemente</option>  
+                 <option value="somali">Somali</option>  
+                 <option value="spanish">Spanish</option>  
+                 <option value="srd">SRD</option>  
+                 <option value="swedland">Swedish Landrace</option>  
+                 <option value="thurin">Thuringian</option>  
+                 <option value="togg">Toggenburg</option>  
+                 <option value="uzbekb">Uzbek Black</option>  
+                 <option value="valais">Valais Blackneck</option>  
+                 <option value="verata">Verata</option>  
+                 <option value="wafricand">West African Dwarf</option>  
+                 <option value="wshorthair">White Shorthair</option>  
+                 <option value="xinjiang">Xinjiang</option>  
+                 <option value="xuhai">Xuhai</option>  
+                 <option value="yemen">Yemen Mountain</option>  
+                 <option value="zhongwei">Zhongwei</option>
+               </select>  
+            </div>
+            <div>
+                <label for="buckid">Buck's Tag ID</label>
+                <input type="text" id="buckid" name="buckid">
+            </div>
+            <div>
+                <label for="dbreed">Doe's breed</label>
+                <select type="breed" name="breed">
+                 <option value="apline">Alpine</option>  
+                 <option value="altai mountain">Altai Mountain</option>  
+                 <option value="anglo-nubian">Anglo-Nubian</option>
+                 <option value="angora">Angora</option>  
+                 <option value="appenzell">Appenzell</option>  
+                 <option value="arapawa island">Arapawa Island</option>  
+                 <option value="australian">Australian</option>  
+                 <option value="bagot">Bagot</option>  
+                 <option value="barbari">Barbari</option>  
+                 <option value="beetal">Beetal</option>  
+                 <option value="belgian fawn">Belgian Fawn</option>  
+                 <option value="benadir">Benadir</option>  
+                 <option value="bhuj">Bhuj</option>  
+                 <option value="boer">Boer</option>  
+                 <option value="booted">Booted</option>  
+                 <option value="british alpine">British Alpine</option>  
+                 <option value="brown shorthair">Brown Shorthair</option>  
+                 <option value="canary island">Canary Island</option>  
+                 <option value="caninde">Canindé</option>  
+                 <option value="cashmere">Cashmere</option>  
+                 <option value="chapar">Chapar</option>  
+                 <option value="corsican">Corsican</option>  
+                 <option value="daera din panah">Daera Din Panah</option>  
+                 <option value="damani">Damani</option>  
+                 <option value="danish landrace">Danish Landrace</option>  
+                 <option value="don">Don</option>  
+                 <option value="dutch landrace">Dutch Landrace</option>  
+                 <option value="erzgebirge">Erzgebirge</option>  
+                 <option value="finnish landrace">Finnish Landrace</option>  
+                 <option value="golden guernsey">Golden Guernsey</option>  
+                 <option value="grisons striped">Grisons Striped</option>  
+                 <option value="hailun">Hailun</option>  
+                 <option value="haimen">Haimen</option>  
+                 <option value="hasi">Hasi</option>  
+                 <option value="hejazi">Hejazi</option>  
+                 <option value="hexi cashmere">Hexi Cashmere</option>  
+                 <option value="hongtong">Hongtong</option>  
+                 <option value="huaipi">Huaipi</option>  
+                 <option value="huaitoutala">Huaitoutala</option>  
+                 <option value="hungimpr">Hungarian Improved</option>  
+                 <option value="irish">Irish</option>  
+                 <option value="jingrey">Jining Grey</option>  
+                 <option value="kaghani">Kaghani</option>  
+                 <option value="kalared">Kalahari Red</option>  
+                 <option value="kam">Kamori</option>  
+                 <option value="kiko">Kiko</option>  
+                 <option value="kinder">Kinder</option>  
+                 <option value="lamancha">LaMancha</option>  
+                 <option value="laoshan">Laoshan</option>  
+                 <option value="moxoto">Moxoto</option>  
+                 <option value="murciagran">Murcia-Granada</option>  
+                 <option value="myotonic">Myotonic (Wooden Leg)</option>  
+                 <option value="nachi">Nachi</option>  
+                 <option value="nigeriand">Nigerian Dwarf</option>  
+                 <option value="norwegian">Norwegian</option> 
+                 <option value="oberhasli">Oberhasli</option>  
+                 <option value="peacock">Peacock</option>  
+                 <option value="philip">Philippine</option>  
+                 <option value="poitou">Poitou</option> 
+                 <option value="pygmy">Pygmy</option>  
+                 <option value="pyrenean">Pyrenean</option>  
+                 <option value="qinshan">Qinshan</option>  
+                 <option value="repartida">Repartida</option>  
+                 <option value="russwng">Russian White and Gorki</option>  
+                 <option value="saanen">Saanen</option>  
+                 <option value="sahelian">Sahelian</option>  
+                 <option value="savanna">Savanna</option>  
+                 <option value="sanclemen">San Clemente</option>  
+                 <option value="somali">Somali</option>  
+                 <option value="spanish">Spanish</option>  
+                 <option value="srd">SRD</option>  
+                 <option value="swedland">Swedish Landrace</option>  
+                 <option value="thurin">Thuringian</option>  
+                 <option value="togg">Toggenburg</option>  
+                 <option value="uzbekb">Uzbek Black</option>  
+                 <option value="valais">Valais Blackneck</option>  
+                 <option value="verata">Verata</option>  
+                 <option value="wafricand">West African Dwarf</option>  
+                 <option value="wshorthair">White Shorthair</option>  
+                 <option value="xinjiang">Xinjiang</option>  
+                 <option value="xuhai">Xuhai</option>  
+                 <option value="yemen">Yemen Mountain</option>  
+                 <option value="zhongwei">Zhongwei</option>
+               </select>  
+            </div>
+            <div>
+                <label for="doeid">Doe's Tag ID</label>
+                <input type="text" id="doeid" name="doeid">
+            </div>
+            <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div>
+                <label for="addinfo">Additional information</label>
+                <textarea id="addinfo" name="addinfo"></textarea>
+            </div>
+            <div>
+                <button>Add Goat</button>
+            </div>
+        </fieldset>
+    </form>
+    <table>
+        <th>Tag ID</th>
+        <th>DOB</th>
+        <th>Sex</th>
+        <th>Buck's Breed</th>
+        <th>Buck's ID</th>
+        <th>Doe's Breed</th>
+        <th>Doe's ID</th>
+   <body>
+
+   </body> 
+</html>
